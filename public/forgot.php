@@ -78,12 +78,7 @@
                             $error = true;
                             };
                         };
-                };  
-                if ($success==false) {
-                    $status = "E-mail does not exist";
-                } else {
-                    $status = "Reset link sent - please check your e-mail!"
-                };
+                };  $status = "E-mail does not exist";
         };
     ?>
 
