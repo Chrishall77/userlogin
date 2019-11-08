@@ -77,8 +77,10 @@
                             $status = "Query did not run.";
                             $error = true;
                             };
-                        };
-                };  $status = "E-mail does not exist";
+                } else {
+                    $status = "That e-mail does not exist";
+                };
+            }; 
         };
     ?>
 
